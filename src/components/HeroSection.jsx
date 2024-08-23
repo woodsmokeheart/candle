@@ -1,6 +1,8 @@
 import { useState } from "react";
-import video1 from "../assets/video1.mp4";
-import video2 from "../assets/video2.mp4";
+// import video1 from "../assets/video1.mp4";
+// import video2 from "../assets/video2.mp4";
+import home1 from "../assets/home1.png";
+import home2 from "../assets/home2.png";
 
 const HeroSection = () => {
   const [isCopied, setIsCopied] = useState(false);
@@ -20,16 +22,19 @@ const HeroSection = () => {
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
       <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
-        Candle is a comprehensive DeFi platform
+        Candle is a DeFi platform
         <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
-          {""} built on the TON blockchain
+          {""} built on the TON
         </span>
       </h1>
       <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
-        Offers custom TON Jetton deployment, a bridge and DEX seamless asset
-        transfers, and a staking service for developers. Its native token,
-        $CNDL, provides utility and rewards holders with a share of service
-        fees, making it a strong long-term investment.
+        Additionally, Candle’s native token, $CNDL, serves as a utility token
+        within the platform. Holders of $CNDL benefit from receiving a
+        percentage of service fees, making it a valuable long-term investment.
+        To ensure high liquidity and protect early investors, the $CNDL token
+        features a unique sales fee structure, which starts at 90% and gradually
+        decreases over time. This approach encourages sustainable growth and
+        prevents premature asset sales.
       </p>
       <p
         className="mt-10 text-lg text-center text-neutral-500 max-w-4xl bg-gradient-to-r from-orange-500 to-red-400 text-transparent bg-clip-text break-all cursor-pointer"
@@ -45,7 +50,7 @@ const HeroSection = () => {
       )}
       <div className="flex justify-center my-10">
         <a href="#" className="py-3 px-4 mx-3 border rounded-md">
-          Dashboard
+          Go to App
         </a>
         <a
           href="https://dedust.io/"
@@ -56,7 +61,13 @@ const HeroSection = () => {
         </a>
       </div>
       <div className="flex mt-10 justify-center">
-        <video
+        <div className="rounded-lg w-1/2 border border-orange-700 shadow-sm shadow-orange-400 mx-2 my-4 overflow-hidden">
+          <img src={home1} alt="Coding" />
+        </div>
+        <div className="rounded-lg w-1/2 border border-orange-700 shadow-sm shadow-orange-400 mx-2 my-4 overflow-hidden">
+          <img src={home2} alt="Coding" />
+        </div>
+        {/* <video
           autoPlay
           loop
           muted
@@ -64,8 +75,8 @@ const HeroSection = () => {
         >
           <source src={video1} type="video/mp4" />
           Your browser does not support the video tag.
-        </video>
-        <video
+        </video> */}
+        {/* <video
           autoPlay
           loop
           muted
@@ -73,7 +84,7 @@ const HeroSection = () => {
         >
           <source src={video2} type="video/mp4" />
           Your browser does not support the video tag.
-        </video>
+        </video> */}
       </div>
     </div>
   );

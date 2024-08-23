@@ -1,9 +1,6 @@
 import { BotMessageSquare } from "lucide-react";
-import { BatteryCharging } from "lucide-react";
 import { Fingerprint } from "lucide-react";
 import { ShieldHalf } from "lucide-react";
-import { PlugZap } from "lucide-react";
-import { GlobeLock } from "lucide-react";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -60,39 +57,21 @@ export const testimonials = [
 export const features = [
   {
     icon: <BotMessageSquare />,
-    text: "Lorem ipsum dolor",
+    text: "Launch Your Custom Tokens",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "Custom Jetton Deployment: Allows users to easily create and launch their own custom Jetton contracts on the TON network.",
   },
   {
     icon: <Fingerprint />,
-    text: "Lorem ipsum dolor",
+    text: "Fast Exchange and Bridge",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "Bridge and DEX: Facilitates seamless cross-chain transfers and decentralized exchanges, ensuring smooth asset movement within the TON ecosystem.",
   },
   {
     icon: <ShieldHalf />,
-    text: "Lorem ipsum dolor",
+    text: "Creation and Participation in Staking Pools",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-  },
-  {
-    icon: <BatteryCharging />,
-    text: "Lorem ipsum dolor",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-  },
-  {
-    icon: <PlugZap />,
-    text: "Lorem ipsum dolor",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-  },
-  {
-    icon: <GlobeLock />,
-    text: "Lorem ipsum dolor",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "Offers a staking mechanism for developers to secure their projects and incentivize community participation.",
   },
 ];
 
