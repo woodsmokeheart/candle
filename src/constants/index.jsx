@@ -98,24 +98,24 @@ export const features = [
 
 export const checklistItems = [
   {
-    title: "Lorem ipsum dolor sit amet",
+    title: "Phase One:",
     description:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
+      "Liquidity accumulation. A 90% sales fee on the first day, decreasing by 10% each day until it reaches 0%.",
   },
   {
-    title: "Lorem ipsum dolor sit amet",
+    title: "Phase Two (starting on day 7):",
     description:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
+      "Launch of the DeFi platform for all users. The opportunity to stake your $CNDL with a 100% monthly return during the first three months.",
   },
   {
-    title: "Lorem ipsum dolor sit amet",
+    title: "Phase Three (after 3 months):",
     description:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
+      "First staking unlock. Users who extend their staking for another 3 months will receive an NFT with utility benefits, providing a steady income. 70% of the service's profits will be shared among all stakers according to their share of the staking pool.",
   },
   {
-    title: "Lorem ipsum dolor sit amet",
+    title: "Phase Four:",
     description:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
+      "Launch of new products in the Candle ecosystem and listing on major centralized exchanges.",
   },
 ];
 
