@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import home1 from "./assets/logo5.png";
+import home1 from "./assets/logo4.png";
 import { Link } from "react-router-dom";
 
 const DashboardPage = () => {
@@ -36,7 +36,7 @@ const DashboardPage = () => {
     <div>
       <div className="flex flex-col items-center justify-center min-h-screen">
         <div className="rounded-lg w-1/2 mb-10 overflow-hidden">
-          <img src={home1} alt="Coding" />
+          <img src={home1} alt="logo_dashboard" />
         </div>
         <h1 className="text-2xl mb-10">launch app via...</h1>
         <div className="text-7xl md:text-8xl lg:text-9xl font-bold bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text mb-10">
