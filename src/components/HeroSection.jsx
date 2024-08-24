@@ -14,7 +14,7 @@ const HeroSection = () => {
       .writeText(textToCopy)
       .then(() => {
         setIsCopied(true);
-        setTimeout(() => setIsCopied(false), 2000); // Убираем сообщение через 2 секунды
+        setTimeout(() => setIsCopied(false), 2000);
       })
       .catch((err) => {
         console.error("Failed to copy text: ", err);
