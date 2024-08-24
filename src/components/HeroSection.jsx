@@ -3,6 +3,7 @@ import { useState } from "react";
 // import video2 from "../assets/video2.mp4";
 import home1 from "../assets/home1.png";
 import home2 from "../assets/home2.png";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   const [isCopied, setIsCopied] = useState(false);
@@ -49,9 +50,11 @@ const HeroSection = () => {
         <p className="text-green-500 text-center mt-2">CA copied.</p>
       )}
       <div className="flex justify-center my-10">
-        <a href="#" className="py-3 px-4 mx-3 border rounded-md">
-          Go to App
-        </a>
+        <Link to="/dashboard">
+          <button className="py-3 px-4 mx-3 border rounded-md">
+            Go to App
+          </button>
+        </Link>
         <a
           href="https://dedust.io/"
           target="_blank"
