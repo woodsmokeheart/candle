@@ -10,11 +10,21 @@ const App = () => {
     <>
       <Navbar />
       <div className="max-w-7xl mx-auto pt-20 px-6">
-        <HeroSection />
-        <FeatureSection />
-        <Roadmap />
-        <Chart />
-        <Tokenomics />
+        <section id="hero">
+          <HeroSection />
+        </section>
+        <section id="features">
+          <FeatureSection />
+        </section>
+        <section id="roadmap">
+          <Roadmap />
+        </section>
+        <section id="chart">
+          <Chart />
+        </section>
+        <section id="tokenomics">
+          <Tokenomics />
+        </section>
       </div>
     </>
   );

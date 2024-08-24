@@ -10,10 +10,11 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Roadmap", href: "#" },
-  { label: "Chart", href: "#" },
-  { label: "Tokenomics", href: "#" },
+  { href: "hero", label: "Hero" },
+  { href: "features", label: "Features" },
+  { href: "roadmap", label: "Roadmap" },
+  { href: "chart", label: "Chart" },
+  { href: "tokenomics", label: "Tokenomics" },
 ];
 
 export const testimonials = [
