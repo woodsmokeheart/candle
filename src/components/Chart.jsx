@@ -7,10 +7,13 @@ const Chart = () => {
           Graph
         </span>
       </h2>
-      <iframe
-        src="https://dexscreener.com/ton/EQCaY8Ifl2S6lRBMBJeY35LIuMXPc8JfItWG4tl7lBGrSoR2?embed=1&theme=dark"
-        style={{ width: "100%", height: "700px", border: "none" }}
-      ></iframe>
+
+      <div id="dexscreener-embed">
+        <iframe
+          src="https://dexscreener.com/ton/EQBb3d5NNIxKCknXW4LvgUWYA0au-uv-f8zD9Dj3FXAPbPOC?embed=1&theme=dark"
+          style={{ width: "100%", height: "700px", border: "none" }}
+        ></iframe>
+      </div>
     </div>
   );
 };

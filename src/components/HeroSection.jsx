@@ -9,7 +9,7 @@ const HeroSection = () => {
   const [isCopied, setIsCopied] = useState(false);
 
   const copyToClipboard = () => {
-    const textToCopy = "EQAiF9cczs48m0nA46L9uUiftFGugaGV8BijubeGa7SxZmaU";
+    const textToCopy = "EQAW76f_u65vUCYY5S5hps1u1bsRNs_xc3Hx23c4iLX9c2jd";
     navigator.clipboard
       .writeText(textToCopy)
       .then(() => {
@@ -43,7 +43,7 @@ const HeroSection = () => {
       >
         CA :{" "}
         <span className="font-bold">
-          EQAiF9cczs48m0nA46L9uUiftFGugaGV8BijubeGa7SxZmaU
+          EQAW76f_u65vUCYY5S5hps1u1bsRNs_xc3Hx23c4iLX9c2jd
         </span>
       </p>
       {isCopied && (
@@ -56,7 +56,7 @@ const HeroSection = () => {
           </button>
         </Link>
         <a
-          href="https://dedust.io/"
+          href="https://dedust.io/swap/TON/EQAW76f_u65vUCYY5S5hps1u1bsRNs_xc3Hx23c4iLX9c2jd"
           target="_blank"
           className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
         >
